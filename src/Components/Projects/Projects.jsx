@@ -17,7 +17,7 @@ const projectObj = [
   {
     img: "https://i0.wp.com/css-tricks.com/wp-content/uploads/2020/03/cover.jpg?fit=1200%2C600&ssl=1",
     title: "Unsplash.com",
-    description: "Online web application for booking Hotels and Homes .",
+    description: "Online web application for searching and downloading images .",
     tech:"Tech Stack :",
     used:"HTML | CSS | JavaScript | Local Storage",
     github: "https://github.com/Hartumpa/Unsplash-Clone-Project",

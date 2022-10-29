@@ -20,7 +20,7 @@ const contactObj = [
     },
     {
         socialMedia:   <i className="fab fa-medium-m"></i>,
-        url: 'https://medium.com/@shrikrishnaaluri641'
+        url: 'https://medium.com/@akshaysuman129'
     },
 
 ]
