@@ -4,9 +4,9 @@
 }
 @media (max-width: 600px) {
     .Project{
-        /* border: 1px solid black; */
+        
         max-width: 80% !important;
-        /* justify-content: center; */
+       
     }
 }
 .Project a{

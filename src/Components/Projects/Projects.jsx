@@ -23,6 +23,15 @@ const projectObj = [
     github: "https://github.com/Hartumpa/Unsplash-Clone-Project",
     blog: " https://precious-faun-cb3646.netlify.app/",
   },
+  {
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy63jrGZY_ElYEec2N_q4OKpS_C_MU2JWNRg&usqp=CAU",
+    title: "Sugarcosmetics.com",
+    description: "Sugarcosmetics is a beauty product and we made a clone of its online retail platform.",
+    tech:"Tech Stack :",
+    used:"HTML | CSS | JavaScript |React JS|Node JS|MongoDb ",
+    github: "https://github.com/sudiptadip/bent-stretch-1134-sugarcosmetics_clone",
+    blog: " https://elegant-lily-59df11.netlify.app/",
+  },
 ];
 
 function Projects() {

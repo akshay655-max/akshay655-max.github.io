@@ -2,6 +2,7 @@ import React from "react";
 import Styles from "./Navigation.module.css";
 
 function Navigation({ Link, router }) {
+  
   return (
     <div className={Styles.Navigation}>
       <div className={Styles.Navigation__logo}>
@@ -29,6 +30,32 @@ function Navigation({ Link, router }) {
           </a>
         </div>
       </div>
+      {/* <div className={`mobile-links ${active ? "active" : ""}`}>
+
+
+<a className="link" onClick={() => setActive(!active)} href="#home">
+  Home
+</a>
+<a className="link" onClick={() => setActive(!active)} href="#about">
+  About
+</a>
+<a
+  className="link"
+  onClick={() => setActive(!active)}
+  href="#skills"
+>
+  Skill
+</a>
+<a className="link" onClick={() => setActive(!active)} href="#projects">
+  Projects
+</a>
+<a className="link" onClick={() => setActive(!active)} href="#contact">
+conctact
+</a>
+<a className="link" href="https://drive.google.com/file/d/1rdnlLBUJtzV89PklADzML3YjBRPEhQSv/view?usp=sharing">
+  Resume
+  </a>
+</div> */}
     </div>
   );
 }

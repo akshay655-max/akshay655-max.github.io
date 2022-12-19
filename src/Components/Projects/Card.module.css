@@ -3,13 +3,20 @@
     padding: 15px;
     border-radius: 10px;
     width: 350px;
-    
-    /* height: 350px; */
     transition:all 400ms;
 }
-@media (max-width: 600px) {
+
+
+/* @media all and (min-width:1024px) {
+}
+@media all and (min-width:768px) and (max-width:1024px) {
+}
+@media all and (max-width:767px) {
+} */
+
+
+@media all and (min-width:768px) and (max-width:1024px) {
     .Card{
-        /* border: 1px solid black; */
         max-width: 80% !important;
         justify-content: center;
     }
@@ -18,6 +25,10 @@
 
 .Card:hover{
     transform:scale(1.03);
+}
+h4{
+    color: #FF4848;
+    font-size: 18px;
 }
 
 
@@ -28,12 +39,25 @@
 }
 
 .Button{
+    width: 60%;
     display: flex;
+    justify-content: space-between;
 }
 
 .Button button{
-    height: 25px;
+    height: 30px;
     font-weight: 600;
     cursor: pointer;
+    border-radius: 7%;
 }
-
+#one{
+    background-color: #FF8787 ;
+   
+    border:#FF8787;  
+}
+#two{
+    background-color: #BCE29E;
+   
+    border:#BCE29E;  
+    font-weight: 750;
+}
