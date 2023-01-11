@@ -3,6 +3,7 @@ import Styles from './About.module.css'
 
 function About() {
     return (
+        <section id='about'>
             <div className={`${Styles.About} section`}>
                 <div className={Styles.About__header}>
                     <h1 className='heading'>About</h1>
@@ -11,6 +12,7 @@ function About() {
                     <p> Observant and innovative aspiring full-stack developer with specialization in MERN stack. Passionate about learning newthings. A Collaborative team player who is excited about building user-centric products.</p>
                 </div>
             </div>
+            </section>
     )
 }
 

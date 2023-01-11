@@ -13,8 +13,8 @@ function Card({img, title, description, github, blog,tech,used}) {
                 <h4>{tech}</h4>
                 <p>{used}</p>
                 <div className={Styles.Button}>
-                    <a href={github}><button>View Code</button></a>
-                    <a href={blog}><button>Deployed Link</button></a>
+                    <a href={github}><button id={Styles.one}>GitHub-Code</button></a>
+                    <a href={blog}><button id={Styles.two}>Deployed Link</button></a>
                      
                 </div>
             </div>

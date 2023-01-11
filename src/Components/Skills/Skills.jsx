@@ -35,6 +35,7 @@ const frontEndIcons = [
 
 function Skills() {
   return (
+    <section id="skills">
     <div className={`${Styles.Skills} `}>
       <div className={`${Styles.ChildSkills} `}>
         <div>
@@ -53,6 +54,7 @@ function Skills() {
         </div>
       </div>
     </div>
+    </section>
   );
 }
 

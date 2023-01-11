@@ -3,7 +3,7 @@ import   "./Card.css"
 
 function EduCard({  title, description, time}) {
     return (
-
+        <section id="education">
         <div className="Card"
         style={{}}>
             <div>
@@ -14,6 +14,7 @@ function EduCard({  title, description, time}) {
 
             </div>
         </div>
+        </section>
     )
 }
 

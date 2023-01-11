@@ -5,6 +5,15 @@ import pic1 from "../../Images/animoto.png"
 
 const projectObj = [
   {
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy63jrGZY_ElYEec2N_q4OKpS_C_MU2JWNRg&usqp=CAU",
+    title: "Sugarcosmetics.com",
+    description: "Sugarcosmetics is a beauty product and we made a clone of its online retail platform.",
+    tech:"Tech Stack :",
+    used:"Redux | Express|React-Js|Mongoose|Node-Js|mongodb|Tailwind css|Heroku ",
+    github: "https://github.com/sudiptadip/bent-stretch-1134-sugarcosmetics_clone",
+    blog: " https://sugar-cosmetics-app.netlify.app/",
+  },
+  {
     img: "http://cdn.shopify.com/s/files/1/0054/6665/2718/files/bvo_og_logo.jpg?v=1626764099",
     title: "Bellavitaorganic.com",
     description:
@@ -23,19 +32,12 @@ const projectObj = [
     github: "https://github.com/Hartumpa/Unsplash-Clone-Project",
     blog: " https://precious-faun-cb3646.netlify.app/",
   },
-  {
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy63jrGZY_ElYEec2N_q4OKpS_C_MU2JWNRg&usqp=CAU",
-    title: "Sugarcosmetics.com",
-    description: "Sugarcosmetics is a beauty product and we made a clone of its online retail platform.",
-    tech:"Tech Stack :",
-    used:"HTML | CSS | JavaScript |React JS|Node JS|MongoDb ",
-    github: "https://github.com/sudiptadip/bent-stretch-1134-sugarcosmetics_clone",
-    blog: " https://elegant-lily-59df11.netlify.app/",
-  },
+
 ];
 
 function Projects() {
   return (
+    <section id="projects">
     <div className={`${Styles.Project} section`}>
       <div>
         <h1 className="heading">Projects</h1>
@@ -48,6 +50,7 @@ function Projects() {
         ))}
       </div>
     </div>
+    </section>
   );
 }
 

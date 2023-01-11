@@ -51,12 +51,14 @@ h4{
     border-radius: 7%;
 }
 #one{
-    background-color: #FF8787 ;
+    background-color: 
+    #ff8786 ;
    
-    border:#FF8787;  
+    border:
+    #ff8786;  
 }
 #two{
-    background-color: #BCE29E;
+    background-color: #bbe29e;
    
     border:#BCE29E;  
     font-weight: 750;

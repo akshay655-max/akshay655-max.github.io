@@ -22,7 +22,7 @@ function Navigation({ Link, router }) {
         ))}
         <div className={Styles.Navigation__resume}>
           <a
-            href="https://drive.google.com/u/0/uc?id=1Ld9CosppHixztNO4UCDEamp37E1Zi8JN&export=download"
+            href="https://drive.google.com/uc?id=1ajooLBrxM4mx5S2A5cYBA5cFkZPXkwko&export=download"
             
             
           >

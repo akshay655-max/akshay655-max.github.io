@@ -4,6 +4,13 @@ import Styles from "./Project.module.css";
 
 const projectObj = [
   {
+    img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy63jrGZY_ElYEec2N_q4OKpS_C_MU2JWNRg&usqp=CAU",
+    title: "Sugarcosmetics",
+    description:
+    "Sugarcosmetics is a beauty product and we made a clone of its online retail platform.",
+    blog:"https://medium.com/@akshaysuman129/clone-of-a-e-commerce-website-4a17cdc85539",
+  },
+  {
     img:"http://cdn.shopify.com/s/files/1/0054/6665/2718/files/bvo_og_logo.jpg?v=1626764099",
     title: "bellavitaorganic",
     description:
@@ -21,6 +28,7 @@ const projectObj = [
 
 function Blogs() {
   return (
+    <section id="blogs">
     <div className={`${Styles.Project} section`}>
       <div>
         <h1 className="heading">Blogs</h1>
@@ -33,6 +41,7 @@ function Blogs() {
         ))}
       </div>
     </div>
+    </section>
   );
 }
 

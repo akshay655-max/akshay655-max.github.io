@@ -27,6 +27,7 @@ const contactObj = [
 
 function Contact() {
     return (
+        <section id="contact">
         <div className={`${Styles.Contact}`}>
             <div>
                 <h1 className="heading">
@@ -45,6 +46,7 @@ function Contact() {
             </div>
                     
         </div>
+        </section>
     )
 }
 

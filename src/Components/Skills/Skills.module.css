@@ -53,6 +53,7 @@
         /* margin: auto; */
         background-color: #172774;
         padding: 20px 0px 50px;
+      
         
     }
     .ChildSkills{
@@ -97,7 +98,10 @@
         margin-top: 100px;
         width: 100%;
         background-color: #172774;
-        padding: 20px 0px 50px;
+        padding-top: 50px;
+        padding-right: 20px;
+        padding-bottom: 50px;
+        padding-left: 20px;
         
     }
     .ChildSkills{
