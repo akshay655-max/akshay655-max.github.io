@@ -32,6 +32,15 @@ const projectObj = [
     github: "https://github.com/Hartumpa/Unsplash-Clone-Project",
     blog: " https://precious-faun-cb3646.netlify.app/",
   },
+  {
+    img: "https://m.economictimes.com/thumb/msid-89666227,width-1200,height-900,resizemode-4,imgsize-1794000/startup-firstcry-funding_funding_thumb-image_ettech.jpg",
+    title: "Firstcry.com",
+    description: "First cry is a baby product and we made a clone of its online retail platform.",
+    tech:"Tech Stack :",
+    used:"Redux | Express|React-Js|Mongoose|Node-Js|mongodb|Tailwind css|Heroku ",
+    github: "https://github.com/Codex-Swapnil1/overconfident-door-5197",
+    blog: " https://sugar-cosmetics-app.netlify.app/",
+  },
 
 ];
 

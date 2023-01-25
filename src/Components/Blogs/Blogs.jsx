@@ -24,6 +24,13 @@ const projectObj = [
     github: "url__",
     blog:"https://medium.com/@akshaysuman129/cloning-of-unsplash-com-aa6ee8b566e5"
   },
+  {
+    img: "https://m.economictimes.com/thumb/msid-89666227,width-1200,height-900,resizemode-4,imgsize-1794000/startup-firstcry-funding_funding_thumb-image_ettech.jpg",
+    title: "Firstcry",
+    description: "Online web application for buying baby dress products.",
+    github: "url__",
+    blog:"https://medium.com/@akshaysuman129/cloning-of-unsplash-com-aa6ee8b566e5"
+  },
 ];
 
 function Blogs() {

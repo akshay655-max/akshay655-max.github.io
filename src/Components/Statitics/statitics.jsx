@@ -19,6 +19,7 @@ export default class Statistics extends Component {
                                     {/* <span className="heading-meta" >My Work</span> */}
                                     <h2 className="colorlib-heading animate-box">Statistics</h2>
                                 </div>
+                                                
                             </div>
                             <div id="statistics"
                             // style={{ display:"flex",

@@ -4,37 +4,37 @@ import "./topnavbar.css";
 const TopNavbar = ({ inView }) => {
   const [isactiveNav, setActiveNav] = useState("#");
 
-  useEffect(() => {
-    setActiveNav(inView);
-  }, [inView]);
+  // useEffect(() => {
+  //   setActiveNav(inView);
+  // }, [inView]);
 
-  const [showNav, setShowNav] = useState(() => null);
+  // const [showNav, setShowNav] = useState(true);
 
-  useEffect(() => {
-    let lastScrollPosition = 0;
-    setShowNav(true);
-    document.addEventListener(
-      "scroll",
-      function (e) {
-        if (window.scrollY > lastScrollPosition) {
-          setShowNav(false);
-        } else {
-          setShowNav(true);
-        }
-        lastScrollPosition = window.scrollY;
-      },
-      {
-        passive: true,
-      }
-    );
-  }, []);
+  // useEffect(() => {
+  //   let lastScrollPosition = 0;
+  //   setShowNav(true);
+  //   document.addEventListener(
+  //     "scroll",
+  //     function (e) {
+  //       if (window.scrollY > lastScrollPosition) {
+  //         setShowNav(true);
+  //       } else {
+  //         setShowNav(true);
+  //       }
+  //       lastScrollPosition = window.scrollY;
+  //     },
+  //     {
+  //       passive: true,
+  //     }
+  //   );
+  // }, []);
 
   return (
     <nav
-      style={{
-        opacity: showNav ? 1 : 0,
-        top: showNav ? 0 : "-100px",
-      }}
+      // style={{
+      //   opacity: showNav ? 0.9 : 0,
+      //   top: showNav ? 0 : "-100px",
+      // }}
       className="TopNavBar "
     >
 
@@ -125,10 +125,11 @@ const TopNavbar = ({ inView }) => {
               Contact
             </a>
           </li>
-          <li>
+          <li  onClick={()=>window.open("https://drive.google.com/uc?id=1ajooLBrxM4mx5S2A5cYBA5cFkZPXkwko&export=download/view")}>
             <a
               href="https://drive.google.com/uc?id=1ajooLBrxM4mx5S2A5cYBA5cFkZPXkwko&export=download"
               style={{color:"#F88119"}}
+             
             >
              Resume
             </a>
